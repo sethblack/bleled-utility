@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B8C6A429FBFC3F3B27E0EFF91AF40BC10F847BB5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B8C6A429FBFC3F3B27E0EFF91AF40BC10F847BB5" : 0,
+    "15C3BA0301A08E95AE15A9FD52FD2A6C11888548" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "271F3176-7FAF-4B63-B2ED-47B526D156B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B8C6A429FBFC3F3B27E0EFF91AF40BC10F847BB5" : "bleled-utility\/",
+    "15C3BA0301A08E95AE15A9FD52FD2A6C11888548" : "firefly-arm-swd\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "bleled-utility",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "bleled-utility.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:denisbohm\/firefly-arm-swd.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15C3BA0301A08E95AE15A9FD52FD2A6C11888548"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:sethblack\/bleled-utility.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B8C6A429FBFC3F3B27E0EFF91AF40BC10F847BB5"
+    }
+  ]
+}

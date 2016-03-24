@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413238AA1CA37B0F00CE90CA /* ARMSerialWireDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413238A91CA37B0F00CE90CA /* ARMSerialWireDebug.framework */; };
+		413238AB1CA37B0F00CE90CA /* ARMSerialWireDebug.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 413238A91CA37B0F00CE90CA /* ARMSerialWireDebug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4188EB741CA3714200C43F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188EB731CA3714200C43F8C /* AppDelegate.m */; };
 		4188EB771CA3714200C43F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188EB761CA3714200C43F8C /* main.m */; };
 		4188EB7A1CA3714200C43F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188EB791CA3714200C43F8C /* ViewController.m */; };
@@ -14,7 +16,23 @@
 		4188EB7F1CA3714200C43F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4188EB7D1CA3714200C43F8C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		413238AC1CA37B0F00CE90CA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				413238AB1CA37B0F00CE90CA /* ARMSerialWireDebug.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4132389E1CA375D300CE90CA /* ARMSerialWireDebug.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ARMSerialWireDebug.xcodeproj; path = "../firefly-arm-swd/ARMSerialWireDebug.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		413238A91CA37B0F00CE90CA /* ARMSerialWireDebug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = ARMSerialWireDebug.framework; path = "/Users/sethblack/Library/Developer/Xcode/DerivedData/bleled-utility-euonvcvkhxnyqiccdntchmnhtwwx/Build/Products/Debug/ARMSerialWireDebug.framework"; sourceTree = "<absolute>"; };
 		4188EB6F1CA3714200C43F8C /* bleled-utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bleled-utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4188EB721CA3714200C43F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4188EB731CA3714200C43F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413238AA1CA37B0F00CE90CA /* ARMSerialWireDebug.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 		4188EB661CA3714200C43F8C = {
 			isa = PBXGroup;
 			children = (
+				413238A91CA37B0F00CE90CA /* ARMSerialWireDebug.framework */,
+				4132389E1CA375D300CE90CA /* ARMSerialWireDebug.xcodeproj */,
 				4188EB711CA3714200C43F8C /* bleled-utility */,
 				4188EB701CA3714200C43F8C /* Products */,
 			);
@@ -86,6 +107,7 @@
 				4188EB6B1CA3714200C43F8C /* Sources */,
 				4188EB6C1CA3714200C43F8C /* Frameworks */,
 				4188EB6D1CA3714200C43F8C /* Resources */,
+				413238AC1CA37B0F00CE90CA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,6 +309,7 @@
 				4188EB851CA3714200C43F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
