@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4188EB741CA3714200C43F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188EB731CA3714200C43F8C /* AppDelegate.m */; };
+		4188EB771CA3714200C43F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188EB761CA3714200C43F8C /* main.m */; };
+		4188EB7A1CA3714200C43F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188EB791CA3714200C43F8C /* ViewController.m */; };
+		4188EB7C1CA3714200C43F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4188EB7B1CA3714200C43F8C /* Assets.xcassets */; };
+		4188EB7F1CA3714200C43F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4188EB7D1CA3714200C43F8C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4188EB6F1CA3714200C43F8C /* bleled-utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bleled-utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4188EB721CA3714200C43F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4188EB731CA3714200C43F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4188EB761CA3714200C43F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4188EB781CA3714200C43F8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4188EB791CA3714200C43F8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4188EB7B1CA3714200C43F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4188EB7E1CA3714200C43F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4188EB801CA3714200C43F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4188EB6C1CA3714200C43F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4188EB661CA3714200C43F8C = {
+			isa = PBXGroup;
+			children = (
+				4188EB711CA3714200C43F8C /* bleled-utility */,
+				4188EB701CA3714200C43F8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4188EB701CA3714200C43F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4188EB6F1CA3714200C43F8C /* bleled-utility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4188EB711CA3714200C43F8C /* bleled-utility */ = {
+			isa = PBXGroup;
+			children = (
+				4188EB721CA3714200C43F8C /* AppDelegate.h */,
+				4188EB731CA3714200C43F8C /* AppDelegate.m */,
+				4188EB781CA3714200C43F8C /* ViewController.h */,
+				4188EB791CA3714200C43F8C /* ViewController.m */,
+				4188EB7B1CA3714200C43F8C /* Assets.xcassets */,
+				4188EB7D1CA3714200C43F8C /* Main.storyboard */,
+				4188EB801CA3714200C43F8C /* Info.plist */,
+				4188EB751CA3714200C43F8C /* Supporting Files */,
+			);
+			path = "bleled-utility";
+			sourceTree = "<group>";
+		};
+		4188EB751CA3714200C43F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4188EB761CA3714200C43F8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4188EB6E1CA3714200C43F8C /* bleled-utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4188EB831CA3714200C43F8C /* Build configuration list for PBXNativeTarget "bleled-utility" */;
+			buildPhases = (
+				4188EB6B1CA3714200C43F8C /* Sources */,
+				4188EB6C1CA3714200C43F8C /* Frameworks */,
+				4188EB6D1CA3714200C43F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bleled-utility";
+			productName = "bleled-utility";
+			productReference = 4188EB6F1CA3714200C43F8C /* bleled-utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4188EB671CA3714200C43F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "William Black";
+				TargetAttributes = {
+					4188EB6E1CA3714200C43F8C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4188EB6A1CA3714200C43F8C /* Build configuration list for PBXProject "bleled-utility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4188EB661CA3714200C43F8C;
+			productRefGroup = 4188EB701CA3714200C43F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4188EB6E1CA3714200C43F8C /* bleled-utility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4188EB6D1CA3714200C43F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4188EB7C1CA3714200C43F8C /* Assets.xcassets in Resources */,
+				4188EB7F1CA3714200C43F8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4188EB6B1CA3714200C43F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4188EB7A1CA3714200C43F8C /* ViewController.m in Sources */,
+				4188EB771CA3714200C43F8C /* main.m in Sources */,
+				4188EB741CA3714200C43F8C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4188EB7D1CA3714200C43F8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4188EB7E1CA3714200C43F8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4188EB811CA3714200C43F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4188EB821CA3714200C43F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4188EB841CA3714200C43F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "bleled-utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sethserver.bleled-utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4188EB851CA3714200C43F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "bleled-utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sethserver.bleled-utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4188EB6A1CA3714200C43F8C /* Build configuration list for PBXProject "bleled-utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4188EB811CA3714200C43F8C /* Debug */,
+				4188EB821CA3714200C43F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4188EB831CA3714200C43F8C /* Build configuration list for PBXNativeTarget "bleled-utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4188EB841CA3714200C43F8C /* Debug */,
+				4188EB851CA3714200C43F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4188EB671CA3714200C43F8C /* Project object */;
+}
