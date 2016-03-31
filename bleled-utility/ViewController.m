@@ -60,7 +60,7 @@
     [usbDevice open];
     
     FDSerialEngine *serialEngine = [[FDSerialEngine alloc] init];
-    serialEngine.timeout = 3;
+    serialEngine.timeout = 0;
     serialEngine.usbDevice = usbDevice;
     FDSerialWireDebug *serialWireDebug = [[FDSerialWireDebug alloc] init];
     serialWireDebug.maskInterrupts = YES;
@@ -72,7 +72,11 @@
 }
 
 - (IBAction)pressButton:(id)sender {
-    [self doStuff];
+    NSThread* evtThread = [ [NSThread alloc] initWithTarget:self
+                                                   selector:@selector( doStuff )
+                                                     object:nil ];
+    
+    [ evtThread start ];
 }
 
 - (void)doStuff {

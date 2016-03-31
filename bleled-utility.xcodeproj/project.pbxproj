@@ -16,6 +16,23 @@
 		4188EB7F1CA3714200C43F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4188EB7D1CA3714200C43F8C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		416D66821CAC9F0B00142F79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4132389E1CA375D300CE90CA /* ARMSerialWireDebug.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 92B8B82816FF70BD00BE38ED;
+			remoteInfo = ARMSerialWireDebug;
+		};
+		416D66841CAC9F0B00142F79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4132389E1CA375D300CE90CA /* ARMSerialWireDebug.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 92B8B84016FF70BD00BE38ED;
+			remoteInfo = ARMSerialWireDebugTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		413238AC1CA37B0F00CE90CA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -56,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		416D667E1CAC9F0B00142F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416D66831CAC9F0B00142F79 /* ARMSerialWireDebug.framework */,
+				416D66851CAC9F0B00142F79 /* ARMSerialWireDebugTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4188EB661CA3714200C43F8C = {
 			isa = PBXGroup;
 			children = (
@@ -143,12 +169,35 @@
 			mainGroup = 4188EB661CA3714200C43F8C;
 			productRefGroup = 4188EB701CA3714200C43F8C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 416D667E1CAC9F0B00142F79 /* Products */;
+					ProjectRef = 4132389E1CA375D300CE90CA /* ARMSerialWireDebug.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4188EB6E1CA3714200C43F8C /* bleled-utility */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		416D66831CAC9F0B00142F79 /* ARMSerialWireDebug.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ARMSerialWireDebug.framework;
+			remoteRef = 416D66821CAC9F0B00142F79 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		416D66851CAC9F0B00142F79 /* ARMSerialWireDebugTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ARMSerialWireDebugTests.xctest;
+			remoteRef = 416D66841CAC9F0B00142F79 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4188EB6D1CA3714200C43F8C /* Resources */ = {
